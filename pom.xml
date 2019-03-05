@@ -16,11 +16,10 @@
         </configuration>
       </plugin>
       <plugin>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>2.6</version>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.1.1</version>
         <configuration>
-          <warSourceDirectory>sonline</warSourceDirectory>
-          <failOnMissingWebXml>false</failOnMissingWebXml>
+          <jarSourceDirectory>sonline</jarSourceDirectory>
         </configuration>
       </plugin>
     </plugins>
